@@ -14,10 +14,10 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v4
 
-    - name: Set up JDK 17  # Change to 11 or 21 depending on your project
+    - name: Set up JDK 21 # Change to 11 or 21 depending on your project
       uses: actions/setup-java@v4
       with:
-        java-version: '17'
+        java-version: '21'
         distribution: 'temurin'
         cache: gradle
 
