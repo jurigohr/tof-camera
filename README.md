@@ -1,3 +1,5 @@
+[![Kotlin CI with Gradle](https://github.com/jurigohr/tof-camera/actions/workflows/build.yaml/badge.svg)](https://github.com/jurigohr/tof-camera/actions/workflows/build.yaml)
+
 # tof-camera
 
 tof-camera is a simple Android app used for viewing (mostly) raw data from the LIDAR Time of Flight (ToF) camera on the device. Other than displaying raw data, this app supports dynamic ranging used for scaling the displayed colors.
